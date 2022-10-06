@@ -1,0 +1,14 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста  #757575*/
+/* цвет инфо текста rgba(255, 255, 255, 0.6) */
+/* акцент #2196F3 */
+
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-text-color: #212121;
+    --desc-text-color: #757575;
+    --info-text-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196f3;
+    --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
