@@ -1023,6 +1023,31 @@ body {
   transform: translateY(-50%);
 }
 
+@media screen and (max-width: 767px) {
+  .project-list__item {
+    flex-basis: 100%;
+  }
+  .filters-list {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    max-width: 340px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .project-list__item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .project-list__item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+}
+
 .footer {
   background-color: #2f303a;
   padding: 60px 0;

@@ -27,6 +27,12 @@
     }
 }
 
+
+
+
+
+
+
 .project-list {
     display: flex;
     flex-wrap: wrap;
@@ -91,4 +97,36 @@
     .project-list__item:focus & {
         transform: translateY(-50%);
     }    
+}
+
+
+// MOBILE
+@media screen and (max-width: 767px) {
+    .project-list__item {
+        flex-basis: 100%;
+    }
+
+    .filters-list {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        row-gap: 15px;
+        max-width: 340px;
+    }
+    
+}
+
+// TABLET
+@media screen and (min-width: 768px) {
+    .project-list__item {
+        flex-basis: calc((100% - 30px) / 2);
+    }
+    
+}
+
+// DESKTOP
+@media screen and (min-width: 1200px) {
+    .project-list__item {
+        flex-basis: calc((100% - 60px) / 3);
+    }
 }
