@@ -1166,7 +1166,7 @@ body {
     flex-basis: 100%;
   }
   .subscribe__btn {
-    display: block;
+    display: flex;
     margin: 0 auto;
     margin-top: 20px;
   }
